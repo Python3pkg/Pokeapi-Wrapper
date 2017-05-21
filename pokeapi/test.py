@@ -1,4 +1,4 @@
-from  pokemon import Pokemon
+from  .pokemon import Pokemon
 
 x = Pokemon("Charizard")
-print(x.getSprites())
+print((x.getSprites()))
